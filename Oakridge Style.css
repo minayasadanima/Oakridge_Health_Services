@@ -1,0 +1,269 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #009933;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color:#000000;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #009933;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #009933;
+}
+
+.services {
+    padding: 40px;
+    background-color: #f5f5f5;
+}
+
+.service {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.doctors {
+    padding: 40px;
+    background-color: #fff;
+}
+
+.doctor {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.doctor img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.contact {
+    background-color: #f5f5f5;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #009933;
+    font-weight: bold;
+}
+
+
+footer {
+    background-color: #009933;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.about-us {
+    padding: 40px;
+    background-color: #f5f5f5;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-us h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.about-us p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.services {
+    padding: 40px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.service {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.service p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.doctors {
+    padding: 40px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.doctors h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.doctor {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.doctor img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.doctor h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.doctor p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact {
+    padding: 40px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+.contact-form h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color:#009933;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #009933;
+}
